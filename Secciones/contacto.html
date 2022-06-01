@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+       <section class="encabezado container containerMobile grillaHeaderMobile">
+        <h1 id="titulo">La Máquina</h1>
+        <nav>
+            <ul class="rutas">
+                <li><a href="../index.html"class="blanco">Inicio</a></li>
+                <li><a href="integrantes.html"class="rojo">Integrantes</a></li>
+                <li><a href="historia.html"class="rojo">Historia</a></li>
+                <li><a href="titulos.html"class="blanco">Títulos</a></li> 
+            </ul>
+        </nav>
+       </section>
+    </header>
+    <main class="container containerMobile grillaContactoMobile">
+        <div>
+            <h2>Contacto</h2>
+        </div>
+        <div>
+            <h3 class="marginTopBot h3C">Si te interesó, dejanos tus datos..</h3>
+        </div>
+        <section class="container containerMobile formu">
+          <form class="formulario borde">
+                <h4>Formulario</h4>
+                <div><label for="nombreCompleto">Nombre completo </label><input type="text" name="nombreCompleto"></div>
+                <div><label for="correo">Correo electrónico </label><input type="email" name="correo"></div>
+                <div><label for="fechaNacimiento">Fecha de nacimiento </label><input type="date" name="fechaNacimiento"></div>
+                <div>Hombre <input type="radio" name="sexo" value="hombre"></div>
+                <div>Mujer <input type="radio" name="sexo" value="mujer"></div>
+                <div><label for="terminosCondiciones">Acepto términos y condiciones </label><input type="checkbox" name="terminosCondiciones"> </div>
+                <input type="submit" name="enviar" class="button">
+                <input type="reset" name="borrarDatos" class="button">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container containerMobile divFooter">
+            <p>Todos los derechos reservados</p>
+            <p>La Máquina</p>
+        </div>
+    </footer>
+</body>
+</html>

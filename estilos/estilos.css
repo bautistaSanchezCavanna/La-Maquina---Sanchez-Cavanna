@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
+
+    /*---Smartphone---*/
+@media (max-width: 400px)
+    {
+*
+    {
+           padding: 0; 
+           margin: 0;
+    }  
+.containerMobile
+    {
+        max-width: 310px;
+        margin: 0 auto;
+    }
+header
+    {
+        border: solid 2px red;
+        background-color: rgb(17, 15, 15);
+        height: 60px;
+    }
+.grillaHeaderMobile
+    {
+        display: grid;
+        grid-template-areas: 
+        "laMaquina"
+        "rutas";
+        color: white;
+        gap: 10px;
+    }
+#titulo
+    {
+        grid-area: laMaquina;
+        font-family: 'PT Serif Regular 400';
+        display: flex;
+        justify-content: center;
+    }
+.rutas
+    {
+        grid-area: rutas;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        list-style: none;
+        justify-content: center;
+    }
+a 
+{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.blanco
+    {
+        color: white;
+    }
+.rojo
+    {
+        color: red;
+    }
+body 
+    {
+        background-image: url("../Img/bandaMobile.jpg");
+        background-size: cover;
+        color: black;
+        font-family: 'Playfair Display', serif;
+    }
+footer
+    {        
+        grid-area: footer;
+        font-size: 9px;
+        background-color: black;
+        color: white;
+        border-top: solid 2px red;
+
+    }
+.divFooter 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 40px;
+    }
+
+    /*---Inicio Mobile---*/
+.grillaInicioMobile
+    {
+        display: grid;
+        grid-template-areas: 
+        "h2"
+        "h3Inicio"
+        "div1Inicio"
+        "div2Inicio"
+        "footer";
+        gap: 8px;
+    }
+h2
+    {
+        margin-left: 10px;
+        grid-area: h2;
+    }
+#h3Inicio
+    {
+        grid-area: h3Inicio;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+.div1InicioMobile
+    {
+        font-size: 14px;
+        grid-area: div1Inicio;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 6px;
+    }
+.caricatura
+    {
+        width: 180px;
+        height: 250px;
+    }
+.div2InicioMobile
+    {
+        font-size: 14px;
+        grid-area: div2Inicio;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 6px;
+    }
+.los5
+    {
+        width: 270px;
+
+    }
+    /*---Integrantes Mobile---*/
+.grillaIntegrantesMobile
+    {
+        display: grid;
+        grid-template-areas: 
+        "h2"
+        "contenido";
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+.contenidoIntegrantes
+    {
+        grid-area: contenido;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+.parrafoFMobile
+    {
+        font-size: 14px;
+    }
+.parrafoPMobile
+    {
+        font-size: 14px;
+   
+    }
+.formacion   
+    {
+        width: 250px;
+        height: 350px;
+    }
+.h3P
+    {
+        margin-top: 5px;
+    }
+    /*---Historia Mobile---*/
+.grillaHistoriaMobile
+    {
+        display: grid;
+        grid-template-areas: 
+        "h2"
+        "h3H"
+        "parrafoHistoria"
+        "videoHistoria";
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+.h3H
+    {
+        grid-area: h3H;
+    }
+.parrafoHistoria
+    {
+        grid-area: parrafoHistoria;
+        font-size: 14px;
+        width: 310px;
+    }
+.videoContainer
+    {
+        grid-area: videoHistoria;
+    }
+.video
+    {
+        width: 310px;
+        height: 280px;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+
+
+    }
+    /*---Títulos Mobile---*/
+.grillaTitulosMobile
+    {
+        display: grid;
+        grid-template-areas: 
+        "h2"
+        "h3T"
+        "parrafoTitulos"
+        "listaTitulos";
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+.h3T
+    {
+        grid-area: h3T;
+    }
+.parrafoTitulos
+    {
+        grid-area: parrafoTitulos;
+        font-size: 14px;
+    }
+.listaTitulos
+    {
+        grid-area: listaTitulos;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;  
+        gap: 5px;      
+        font-weight: 500;
+        align-items: center;
+        justify-content: center;
+        list-style: none ;
+        background-color: rgba(252, 252, 252, 0.603);
+        border-radius: 10px;
+        border: solid 2px black;
+        padding: 8px 2px;
+    }
+    /*---Contacto Mobile---*/
+.grillaContactoMobile
+    {
+        display: grid;
+        grid-template-areas: 
+        "h2"
+        "h3C"
+        "formu";
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+.h3C
+    {
+        grid-area: h3C;
+    }
+.formu
+    {
+        grid-area: formu;
+    }
+.formulario
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto 50px auto;
+        gap: 8px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 2px black solid;
+        background-color: rgba(252, 252, 252, 0.603);
+        padding: 10px 2px;
+    }
+
+.button
+    {
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+
+    /*---Desktop---*/
+@media (min-width:1024px)
+    {
+*
+    {
+       padding: 0; 
+       margin: 0;
+    }
+
+    /*---Encabezado---*/
+header
+    {
+        background-color: rgb(17, 15, 15);
+        border: solid 3px red;
+    }
+.encabezado
+    {
+        display: flex;
+        align-items: center;
+        height: 80px;
+        justify-content: space-between;
+    }
+nav ul
+    {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+    }
+a
+    {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-decoration: none;
+    }
+.blanco
+    {
+        color: white;
+    }
+.rojo
+    {
+        color: red;
+    }
+
+    /*---Generales---*/
+.container
+    {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+body 
+    {
+        background-image: url("../Img/banda.png");
+        background-size: cover;
+        color: black;
+        font-family: 'Playfair Display', serif;
+    }
+footer
+    {        
+        font-size: 13px;
+        background-color: black;
+        color: white;
+        border-top: solid 2px red;
+
+    }
+.divFooter 
+    {
+        display: flex;
+        align-items: center;
+        gap: 600px;
+        height: 50px;
+    }
+#titulo
+    {
+        color: white;
+        font-size: 48px;
+        font-family: 'PT Serif Regular 400';
+        font-weight: 500;
+    }
+h2
+    {
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        margin: 10px auto 10px 250px;
+    }
+.marginRight
+    {
+        margin-right: 10px;
+    }
+.marginLeft
+    {
+        margin-left: 10px;
+    }
+.marginTopBot
+    {
+        margin: 20px auto;
+    }
+
+    /*---Inicio---*/
+#h3Inicio
+    {
+        font-size: 25px;
+        margin-left: 85px;
+    }
+#div1
+    {
+        display: flex;
+        margin: 10px auto;
+        align-items: flex-start;
+    }
+#div2
+    {
+        display: flex;
+        margin: 10px auto;
+        align-items: flex-start;
+    }
+#caricatura
+    {
+        width: 240px;
+        height: 352px;
+    }
+#los5
+    {
+        width: 350px;
+        height: 230px;
+    }
+
+    /*---Integrantes---*/
+.grillaIntegrantes
+    {
+        display: grid;
+        grid-template-areas: 
+        "tituloF tituloF"
+        "parrafoFormacion  formacion"
+        "tituloP tituloP"
+        "plantel parrafoPlantel";
+        row-gap: 10px;
+        margin: 20px 0px;
+    }
+.parrafoFormacion
+    {
+        grid-area: parrafoFormacion;  
+        padding-top: 10px;      
+    }
+.parrafoPlantel
+    {
+        grid-area: parrafoPlantel;
+        padding-top: 10px;
+    }
+.tituloFormacion
+    {
+        grid-area: tituloF;
+        font-size: 23px;
+        height: max-content;
+        margin-left: 20px;
+    }
+.tituloPlantel
+    {
+        grid-area: tituloP;
+        font-size: 23px;
+        margin-left: 20px;
+
+    }
+#formacion
+    {
+        width: 270px;
+        height: 380px;
+        grid-area: formacion;
+    }
+.containerFormacion
+    {
+        display: flex;
+        justify-content: center;
+    }
+#plantel
+    {
+        width: 377px;
+        height: 245px;
+        grid-area: plantel;
+    }
+.containerPlantel
+    {
+        display: flex;
+    }
+
+    /*---Títulos---*/
+.listaTitulos
+    {
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;  
+        gap: 5px;      
+        font-weight: 500;
+        align-items: center;
+        justify-content: center;
+        list-style: none ;
+        background-color: rgba(252, 252, 252, 0.603);
+        width: 370px;
+        height: 280px;
+        border-radius: 10px;
+        border: solid 2px black;
+    }
+
+    /*---Historia---*/
+.videoContainer
+    {
+        display: flex;
+        margin-bottom: 25px;
+    }
+.video 
+    {
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+
+    /*---Contacto---*/
+.formulario
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto 50px auto;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        border-radius: 10px;
+        border: 2px black solid;
+        background-color: rgba(252, 252, 252, 0.603);
+        width: 370px;
+        height: 340px;
+        padding-bottom: 8px;
+    }
+
+.button
+    {
+        border-radius: 15px;
+        padding: 5px;
+    }
+    }
+
+
+
+
+
+
+
+
+    
