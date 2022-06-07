@@ -335,6 +335,28 @@ a
         max-width: 900px;
         margin: 0 auto;
     }
+a:hover 
+    {
+        text-decoration: underline;
+        font-size: 23px;
+        transition: all 1s;
+    }
+img:hover
+    {
+        transform: scale(1.1);
+        transition: all 1s;
+        border-radius: 10px;
+    }
+.listaTitulos:hover
+    {
+        transform: scale(1.1);
+        transition: all 1s;
+    }
+iframe:hover
+    {
+        transform: scale(1.1);
+        transition: all 2s;
+    }
 body 
     {
         background-image: url("../Img/banda.png");
