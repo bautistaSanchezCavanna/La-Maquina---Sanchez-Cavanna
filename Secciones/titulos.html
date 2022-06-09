@@ -4,43 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos/estilos.css">
     <title>Títulos</title>
 </head>
 <body>
-    <header>
-        <section class="encabezado container containerMobile grillaHeaderMobile">
-            <h1 id="titulo">La Máquina</h1>
-            <nav>
-                <ul class="rutas">
-                    <li><a href="../index.html"class="blanco">Inicio</a></li>
-                    <li><a href="integrantes.html" class="rojo">Integrantes</a></li>
-                    <li><a href="historia.html" class="rojo">Historia</a></li>
-                    <li><a href="contacto.html"class="blanco">Contacto</a></li>
-                </ul>
-            </nav>
-        </section>
+    <header class="container-fluid bg-dark row m-0 py-3 border border-danger border-3">
+        <h1 class="col m-0 p-0 text-light">La Máquina</h1>
+        <ul class="col m-0 p-0 d-flex justify-content-between align-items-center">
+            <li><a href="../index.html"class="text-light text-decoration-none">Inicio</a></li>
+            <li><a href="./integrantes.html" class="text-danger text-decoration-none">Integrantes</a></li>
+            <li><a href="./historia.html" class="text-danger text-decoration-none">Historia</a></li>
+            <li><a href="./contacto.html"class="text-light text-decoration-none">Contacto</a></li>
+        </ul>
     </header>
-    <main class="container containerMobile grillaTitulosMobile">
-        <div>
+    <main class="container">
+        <div class="lg-row ms-5 mb-3 w-25 mt-3">
             <h2>Títulos</h2>
         </div>
+        <h3>Equipo ganador...</h3>
         <div>
-            <h3 class="marginTopBot h3T">Equipo ganador...</h3>
-        </div> 
-        <div>
-            <p class="marginTopBot parrafoTitulos">
+            <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quae illum expedita tenetur, ad enim architecto neque unde possimus aliquid officiis illo reiciendis esse. Quo in quas alias aperiam vero. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quae illum expedita tenetur, ad enim architecto neque unde possimus aliquid officiis illo reiciendis esse. Quo in quas alias aperiam vero. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quae illum expedita tenetur, ad enim architecto neque unde possimus aliquid officiis illo reiciendis esse. Quo in quas alias aperiam vero. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quae illum expedita tenetur, ad enim architecto neque unde possimus aliquid officiis illo reiciendis esse. Quo in quas alias aperiam vero.
             </p>
         </div>
-        <div>
-            <ul class="listaTitulos">
+        <div class="d-flex justify-content-center w-100">
+            <ul class="d-flex flex-column align-items-center list-style-none border border-dark border-2 rounded p-3 bg-light p-2 text-dark bg-opacity-50">
                 <li>Primera División Argentina	1941</li>
                 <li>Copa Adrián C. Escobar Argentina 1941</li>
-                <li>Copa Doctor Carlos Ibarguren Argentina	1941</li>
+                <li>Copa Dr. Carlos Ibarguren Argentina	1941</li>
                 <li>Copa Aldao Argentina/Uruguay 1941</li>
                 <li>Primera División Argentina	1942</li>
-                <li>Copa Doctor Carlos Ibarguren Argentina	1942</li>
+                <li>Copa Dr. Carlos Ibarguren Argentina	1942</li>
                 <li>Primera División Argentina 1945</li>
                 <li>Copa Aldao Argentina/Uruguay 1945</li>
                 <li>Primera División Argentina	1947</li>
@@ -48,11 +43,12 @@
             </ul>        
         </div>
     </main>
-    <footer>
-        <div class="container containerMobile divFooter">
-            <p>Todos los derechos reservados</p>
-            <p>La Máquina</p>
+    <footer class="container-fluid mt-3 bg-dark row m-0 py-3 border border-danger border-3">
+        <div class="d-flex justify-content-between align-items-center text-light">
+            <p class="m-0">Todos los derechos reservados</p>
+            <p class="m-0">La Máquina</p>
         </div>
-    </footer> 
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
