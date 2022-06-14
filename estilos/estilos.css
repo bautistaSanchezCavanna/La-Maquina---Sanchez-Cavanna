@@ -17,6 +17,22 @@ body
         color: black;
         font-family: 'Playfair Display', serif;
     }
+.caricatura{
+    width: 100%;
+    height: auto;
+}
+.los5{
+    width: 100%;
+    height: auto;
+}
+.plantel{
+    width: 100%;
+    height: auto;
+}
+.formacion{
+    width: 100%;
+    height: auto;
+}
 footer{
     font-size: 13px;
 }
@@ -24,5 +40,21 @@ footer{
 body{
     background-image: url("../Img/bandaMobile.jpg");
     background-size: cover;
+}
+.caricatura{
+    width: 60%;
+    height: auto;
+}
+.los5{
+    width: 80%;
+    height: auto;
+}
+.plantel{
+    width: 80%;
+    height: auto;
+}
+.formacion{
+    width: 80%;
+    height: auto;
 }
 }
