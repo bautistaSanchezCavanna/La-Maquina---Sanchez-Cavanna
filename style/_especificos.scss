@@ -1,0 +1,18 @@
+h1{
+    font-family: Playfair Display, sans-serif;
+    font-size: 45px;
+}
+.list-style-none{
+    list-style: none;
+}
+header {
+    ul{
+    font-size: 19px;
+    list-style: none;
+    }
+    li{
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

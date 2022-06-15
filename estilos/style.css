@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../Img/banda.png");
+  background-size: cover;
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+
+footer {
+  font-size: 13px;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-image: url("../Img/bandaMobile.jpg");
+    background-size: cover;
+  }
+}
+
+.caricatura {
+  width: 100%;
+  height: auto;
+}
+
+.los5 {
+  width: 100%;
+  height: auto;
+}
+
+.plantel {
+  width: 100%;
+  height: auto;
+}
+
+.formacion {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 500px) {
+  .caricatura {
+    width: 60%;
+    height: auto;
+  }
+  .los5 {
+    width: 80%;
+    height: auto;
+  }
+  .plantel {
+    width: 80%;
+    height: auto;
+  }
+  .formacion {
+    width: 80%;
+    height: auto;
+  }
+}
+
+h1 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 45px;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+header ul {
+  font-size: 19px;
+  list-style: none;
+}
+
+header li:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
