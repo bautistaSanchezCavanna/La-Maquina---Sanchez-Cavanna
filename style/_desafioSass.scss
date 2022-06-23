@@ -1,0 +1,36 @@
+$width: 300px;
+$height: 300px;
+$letra: 25px;
+
+@each $idolos in labruna, gallardo, minella{
+    .#{$idolos}-fondo{
+        background-image: url('../Img/#{$idolos}.jpg');
+        height: $height;
+        width: $width;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid red;
+    }
+}
+
+@mixin altoLetra ($letra) {
+    font-size: $letra;
+}
+
+$idolos:(
+    labruna: green,
+    gallardo: white,
+    minella: blue
+);
+
+.subrayado{
+    text-decoration: underline;
+}
+
+@each $idolo, $color in $idolos {
+    .#{$idolo}-texto{
+        color: $color;
+        @include altoLetra($letra);
+        @extend .subrayado;
+    }
+}

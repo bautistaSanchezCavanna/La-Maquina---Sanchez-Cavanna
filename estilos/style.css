@@ -78,4 +78,50 @@ header ul {
 header li:hover {
   text-decoration: underline;
 }
+
+.labruna-fondo {
+  background-image: url("../Img/labruna.jpg");
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid red;
+}
+
+.gallardo-fondo {
+  background-image: url("../Img/gallardo.jpg");
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid red;
+}
+
+.minella-fondo {
+  background-image: url("../Img/minella.jpg");
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid red;
+}
+
+.subrayado, .labruna-texto, .gallardo-texto, .minella-texto {
+  text-decoration: underline;
+}
+
+.labruna-texto {
+  color: green;
+  font-size: 25px;
+}
+
+.gallardo-texto {
+  color: white;
+  font-size: 25px;
+}
+
+.minella-texto {
+  color: blue;
+  font-size: 25px;
+}
 /*# sourceMappingURL=style.css.map */
