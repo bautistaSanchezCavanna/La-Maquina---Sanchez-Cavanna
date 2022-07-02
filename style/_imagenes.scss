@@ -15,6 +15,17 @@
     height: auto;
 }
 
+@each $idolo in labruna, pedernera, moreno, munioz, loustau {
+    .#{$idolo}-foto{
+        background-image: url("../Img/#{$idolo}.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 290px;
+        height: 270px;
+        border: 3px black double;
+    }
+}
+
 @media (max-width: 500px){
     .caricatura{
         width: 60%;

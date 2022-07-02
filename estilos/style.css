@@ -42,6 +42,51 @@ footer {
   height: auto;
 }
 
+.labruna-foto {
+  background-image: url("../Img/labruna.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 290px;
+  height: 270px;
+  border: 3px black double;
+}
+
+.pedernera-foto {
+  background-image: url("../Img/pedernera.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 290px;
+  height: 270px;
+  border: 3px black double;
+}
+
+.moreno-foto {
+  background-image: url("../Img/moreno.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 290px;
+  height: 270px;
+  border: 3px black double;
+}
+
+.munioz-foto {
+  background-image: url("../Img/munioz.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 290px;
+  height: 270px;
+  border: 3px black double;
+}
+
+.loustau-foto {
+  background-image: url("../Img/loustau.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 290px;
+  height: 270px;
+  border: 3px black double;
+}
+
 @media (max-width: 500px) {
   .caricatura {
     width: 60%;
@@ -77,5 +122,9 @@ header ul {
 
 header li:hover {
   text-decoration: underline;
+}
+
+.borde-doble {
+  border: double 5px #ba8e1c;
 }
 /*# sourceMappingURL=style.css.map */
